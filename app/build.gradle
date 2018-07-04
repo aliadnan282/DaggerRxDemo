@@ -1,23 +1,45 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'io.fabric'
 
 project.ext {
-    supportLibraryVersion = "26.1.0"
+    googlePlayServices = '15.0.1'
+    supportLibraryVersion = "27.1.1"
+    constraintLibraryVersion = "1.1.2"
+    consentLibraryVersion = "1.0.6"
     daggerVersion = "2.13"
     butterKnifeVersion = "8.8.1"
     rxJavaVersion = "2.1.0"
     rxAndroidVersion = "2.0.1"
     timberVersion = "4.6.0"
-    lifecycleVersion = "1.0.0"
+    lifecycleVersion = "1.1.1"
+    roomLibrary = '1.1.1'
+    firebaseCore = '16.0.1'
+    firebaseCrash = '2.9.4'
+    firebaseDispatcher = '0.8.5'
+    gsonLibrary = '2.8.1'
+    picassoLibraryVersion = '2.71828'
+    stethoLibraryVersion = '1.8.1'
+    facebookSdkVersion = '4.28.2'
+    multidexLibrary = '1.0.3'
+
 }
 
 android {
-    compileSdkVersion 26
+    compileSdkVersion 27
+    buildToolsVersion '27.0.3'
+
     defaultConfig {
         applicationId "com.daggerandroidmvvm"
-        minSdkVersion 19
-        targetSdkVersion 26
+        minSdkVersion 15
+        targetSdkVersion 27
         versionCode 1
         versionName "1.0"
+        multiDexEnabled true
+        vectorDrawables.useSupportLibrary = true
+        dataBinding {
+            enabled = true
+        }
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
         compileOptions {
@@ -34,31 +56,67 @@ android {
 }
 
 dependencies {
+    // **********Android support*************************
     implementation "com.android.support:appcompat-v7:$project.supportLibraryVersion"
+    implementation "com.android.support:cardview-v7:$project.supportLibraryVersion"
+    implementation "com.android.support:exifinterface:$project.supportLibraryVersion"
+    implementation "com.android.support:customtabs:$project.supportLibraryVersion"
+    implementation "com.android.support:recyclerview-v7:$project.supportLibraryVersion"
+    implementation "com.android.support:design:$project.supportLibraryVersion"
+    implementation "com.android.support.constraint:constraint-layout:$project.constraintLibraryVersion"
+    implementation "com.android.support:multidex:$project.multidexLibrary"
 
-    // Dagger core
+    // **********Dagger core****************************
     annotationProcessor "com.google.dagger:dagger-compiler:$project.daggerVersion"
     implementation "com.google.dagger:dagger:$project.daggerVersion"
 
-    // Dagger Android
+    // *********Dagger Android**************************
     annotationProcessor "com.google.dagger:dagger-android-processor:$project.daggerVersion"
     implementation "com.google.dagger:dagger-android-support:$project.daggerVersion"
-    // if you are not using support library, include this instead
-    implementation "com.google.dagger:dagger-android:$project.daggerVersion"
 
-    // ButterKnife
+    // if you are not using support library, include this instead
+   // implementation "com.google.dagger:dagger-android:$project.daggerVersion"
+
+    // *********ButterKnife***************************
     implementation "com.jakewharton:butterknife:$project.butterKnifeVersion"
     annotationProcessor "com.jakewharton:butterknife-compiler:$project.butterKnifeVersion"
 
-    // ReactiveX
+    // **********ReactiveX****************************
     implementation "io.reactivex.rxjava2:rxjava:$project.rxJavaVersion"
     implementation "io.reactivex.rxjava2:rxandroid:$project.rxAndroidVersion"
 
-    // Timber
+    // **********Timber******************************
     implementation "com.jakewharton.timber:timber:$project.timberVersion"
 
-    // Lifecycle
+    // *********Lifecycle***************************
     implementation "android.arch.lifecycle:runtime:$project.lifecycleVersion"
     implementation "android.arch.lifecycle:extensions:$project.lifecycleVersion"
     annotationProcessor "android.arch.lifecycle:compiler:$project.lifecycleVersion"
+
+    // ********Room Database************************
+    implementation "android.arch.persistence.room:runtime:$project.roomLibrary"
+    annotationProcessor "android.arch.persistence.room:compiler:$project.roomLibrary"
+
+    // *******Firebase******************************
+    implementation "com.google.firebase:firebase-core:$project.firebaseCore"
+    implementation "com.crashlytics.sdk.android:crashlytics:$project.firebaseCrash"
+    implementation "com.firebase:firebase-jobdispatcher:$project.firebaseDispatcher"
+
+    // *******Admob Ads****************************
+    implementation "com.google.android.gms:play-services-ads:$project.googlePlayServices"
+    implementation "com.google.android.ads.consent:consent-library:$project.consentLibraryVersion"
+
+    //********Facebook Ads*************************
+    implementation "com.facebook.android:audience-network-sdk:$project.facebookSdkVersion"
+
+    //********Gson*********************************
+    implementation "com.google.code.gson:gson:$project.gsonLibrary"
+
+    //********Picasso******************************
+    implementation "com.squareup.picasso:picasso:$project.picassoLibraryVersion"
+
+    //*******Stetho Debug Library******************
+    implementation "com.facebook.fresco:stetho:$project.stethoLibraryVersion"
+
+
 }

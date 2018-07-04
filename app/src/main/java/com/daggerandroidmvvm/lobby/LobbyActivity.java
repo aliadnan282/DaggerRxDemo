@@ -10,6 +10,7 @@ import android.widget.Toast;
 
 import com.daggerandroidmvvm.R;
 import com.daggerandroidmvvm.common.viewmodel.Response;
+import com.daggerandroidmvvm.helper.AppPreference;
 
 import javax.inject.Inject;
 
@@ -23,6 +24,9 @@ public class LobbyActivity extends AppCompatActivity {
 
     @Inject
     com.daggerandroidmvvm.lobby.LobbyViewModelFactory viewModelFactory;
+
+    @Inject
+    AppPreference sharedPreferences;
 
     @BindView(R.id.greeting_textview)
     TextView greetingTextView;
@@ -39,6 +43,8 @@ public class LobbyActivity extends AppCompatActivity {
         setContentView(R.layout.lobby_activity);
 
         ButterKnife.bind(this);
+        sharedPreferences.setPlan(1);
+        Toast.makeText(this, ""+sharedPreferences.getCategoryString(), Toast.LENGTH_SHORT).show();
 
         viewModel = ViewModelProviders.of(this, viewModelFactory).get(LobbyViewModel.class);
 

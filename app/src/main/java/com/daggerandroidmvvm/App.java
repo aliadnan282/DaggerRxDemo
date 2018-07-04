@@ -3,8 +3,8 @@ package com.daggerandroidmvvm;
 import android.app.Activity;
 import android.app.Application;
 
-import com.daggerandroidmvvm.BuildConfig;
 import com.daggerandroidmvvm.di.DaggerAppComponent;
+import com.daggerandroidmvvm.helper.AppConstant;
 
 import javax.inject.Inject;
 
@@ -20,6 +20,7 @@ public class App extends Application implements HasActivityInjector {
     @Override
     public void onCreate() {
         super.onCreate();
+        AppConstant.mContext=getApplicationContext();
 
         if (BuildConfig.DEBUG) {
             Timber.plant(new Timber.DebugTree());
