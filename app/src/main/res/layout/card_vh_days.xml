@@ -9,11 +9,11 @@
 
         <variable
             name="dailyExerciseProgress"
-            type="com.daggerandroidmvvm.data.entity.DailyExerciseProgress" />
+            type="com.mvvm.data.entity.DailyExerciseProgress" />
 
         <variable
             name="adapter"
-            type="com.daggerandroidmvvm.view.adapter.CategoryAdapter" />
+            type="com.mvvm.view.adapter.CategoryAdapter" />
 
     </data>
 

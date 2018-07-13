@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.daggerandroidmvvm">
+    package="com.mvvm">
 
     <application
-        android:name="com.daggerandroidmvvm.App"
+        android:name="com.mvvm.App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -17,6 +17,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".lobby.LobbyActivity"/>
     </application>
 
 </manifest>

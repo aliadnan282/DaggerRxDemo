@@ -1,0 +1,1642 @@
+[
+  {
+    "day": [
+      {
+        "dayId": 1,
+        "planId": 1,
+        "exercise": [
+          {
+            "exe_reps": 6,
+            "exe_status": false,
+            "exe_id": 100,
+            "exe_name": "uptright_exernal_rotation"
+          },
+          {
+            "exe_reps": 6,
+            "exe_status": false,
+            "exe_id": 101,
+            "exe_name": "bent_over_t_rotation"
+          },
+          {
+            "exe_reps": 6,
+            "exe_status": false,
+            "exe_id": 104,
+            "exe_name": "internal_rotation"
+          },
+          {
+            "exe_reps": 6,
+            "exe_status": false,
+            "exe_id": 105,
+            "exe_name": "line_pullover"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 109,
+            "exe_name": "dumbell_reverse_fly"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 110,
+            "exe_name": "band_pull_apart"
+          }
+        ]
+      },
+      {
+        "dayId": 2,
+        "planId": 1,
+        "exercise": [
+          {
+            "exe_reps": 6,
+            "exe_status": false,
+            "exe_id": 100,
+            "exe_name": "uptright_exernal_rotation"
+          },
+          {
+            "exe_reps": 6,
+            "exe_status": false,
+            "exe_id": 101,
+            "exe_name": "bent_over_t_rotation"
+          },
+          {
+            "exe_reps": 4,
+            "exe_status": false,
+            "exe_id": 102,
+            "exe_name": "pinkies_to_the_sky"
+          },
+          {
+            "exe_reps": 4,
+            "exe_status": false,
+            "exe_id": 103,
+            "exe_name": "wall_angels"
+          },
+          {
+            "exe_reps": 6,
+            "exe_status": false,
+            "exe_id": 104,
+            "exe_name": "internal_rotation"
+          },
+          {
+            "exe_reps": 6,
+            "exe_status": false,
+            "exe_id": 105,
+            "exe_name": "line_pullover"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 109,
+            "exe_name": "dumbell_reverse_fly"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 110,
+            "exe_name": "band_pull_apart"
+          }
+        ]
+      },
+      {
+        "dayId": 3,
+        "planId": 1,
+        "exercise": [
+          {
+            "exe_reps": 6,
+            "exe_status": false,
+            "exe_id": 102,
+            "exe_name": "pinkies_to_the_sky"
+          },
+          {
+            "exe_reps": 6,
+            "exe_status": false,
+            "exe_id": 103,
+            "exe_name": "wall_angels"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 106,
+            "exe_name": "straight_arm_wall_stretch"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 107,
+            "exe_name": "posterior_shoulder_stretch"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 108,
+            "exe_name": "side_raises_stretches"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 109,
+            "exe_name": "dumbell_reverse_fly"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 111,
+            "exe_name": "front_raises"
+          }
+        ]
+      },
+      {
+        "dayId": 4,
+        "planId": 1,
+        "exercise": [
+          {
+            "exe_reps": 6,
+            "exe_status": false,
+            "exe_id": 100,
+            "exe_name": "uptright_exernal_rotation"
+          },
+          {
+            "exe_reps": 6,
+            "exe_status": false,
+            "exe_id": 101,
+            "exe_name": "bent_over_t_rotation"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 104,
+            "exe_name": "internal_rotation"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 105,
+            "exe_name": "line_pullover"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 106,
+            "exe_name": "straight_arm_wall_stretch"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 107,
+            "exe_name": "posterior_shoulder_stretch"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 109,
+            "exe_name": "dumbell_reverse_fly"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 110,
+            "exe_name": "band_pull_apart"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 111,
+            "exe_name": "front_raises"
+          }
+        ]
+      },
+      {
+        "dayId": 5,
+        "planId": 1,
+        "exercise": [
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 100,
+            "exe_name": "uptright_exernal_rotation"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 101,
+            "exe_name": "bent_over_t_rotation"
+          },
+          {
+            "exe_reps": 6,
+            "exe_status": false,
+            "exe_id": 102,
+            "exe_name": "pinkies_to_the_sky"
+          },
+          {
+            "exe_reps": 6,
+            "exe_status": false,
+            "exe_id": 103,
+            "exe_name": "wall_angels"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 104,
+            "exe_name": "internal_rotation"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 105,
+            "exe_name": "line_pullover"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 106,
+            "exe_name": "straight_arm_wall_stretch"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 107,
+            "exe_name": "posterior_shoulder_stretch"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 110,
+            "exe_name": "band_pull_apart"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 111,
+            "exe_name": "front_raises"
+          }
+        ]
+      },
+      {
+        "dayId": 6,
+        "planId": 1,
+        "exercise": [
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 100,
+            "exe_name": "uptright_exernal_rotation"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 101,
+            "exe_name": "bent_over_t_rotation"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 102,
+            "exe_name": "pinkies_to_the_sky"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 103,
+            "exe_name": "wall_angels"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 104,
+            "exe_name": "internal_rotation"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 105,
+            "exe_name": "line_pullover"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 108,
+            "exe_name": "side_raises_stretches"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 109,
+            "exe_name": "dumbell_reverse_fly"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 110,
+            "exe_name": "band_pull_apart"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 111,
+            "exe_name": "front_raises"
+          }
+        ]
+      },
+      {
+        "dayId": 7,
+        "planId": 1,
+        "exercise": [
+          {
+            "exe_reps": 12,
+            "exe_status": false,
+            "exe_id": 100,
+            "exe_name": "uptright_exernal_rotation"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 101,
+            "exe_name": "bent_over_t_rotation"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 102,
+            "exe_name": "pinkies_to_the_sky"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 103,
+            "exe_name": "wall_angels"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 104,
+            "exe_name": "internal_rotation"
+          },
+          {
+            "exe_reps": 12,
+            "exe_status": false,
+            "exe_id": 105,
+            "exe_name": "line_pullover"
+          },
+          {
+            "exe_reps": 12,
+            "exe_status": false,
+            "exe_id": 106,
+            "exe_name": "straight_arm_wall_stretch"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 110,
+            "exe_name": "band_pull_apart"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 111,
+            "exe_name": "front_raises"
+          }
+        ]
+      }
+    ],
+    "planId": 1
+  },
+  {
+    "day": [
+      {
+        "dayId": 1,
+        "planId": 1,
+        "exercise": [
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 100,
+            "exe_name": "uptright_exernal_rotation"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 101,
+            "exe_name": "bent_over_t_rotation"
+          },
+          {
+            "exe_reps": 6,
+            "exe_status": false,
+            "exe_id": 102,
+            "exe_name": "pinkies_to_the_sky"
+          },
+          {
+            "exe_reps": 6,
+            "exe_status": false,
+            "exe_id": 103,
+            "exe_name": "wall_angels"
+          },
+          {
+            "exe_reps": 6,
+            "exe_status": false,
+            "exe_id": 106,
+            "exe_name": "straight_arm_wall_stretch"
+          },
+          {
+            "exe_reps": 6,
+            "exe_status": false,
+            "exe_id": 107,
+            "exe_name": "posterior_shoulder_stretch"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 110,
+            "exe_name": "band_pull_apart"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 111,
+            "exe_name": "front_raises"
+          }
+        ]
+      },
+      {
+        "dayId": 2,
+        "planId": 1,
+        "exercise": [
+          {
+            "exe_reps": 6,
+            "exe_status": false,
+            "exe_id": 100,
+            "exe_name": "uptright_exernal_rotation"
+          },
+          {
+            "exe_reps": 6,
+            "exe_status": false,
+            "exe_id": 101,
+            "exe_name": "bent_over_t_rotation"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 104,
+            "exe_name": "internal_rotation"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 105,
+            "exe_name": "line_pullover"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 106,
+            "exe_name": "straight_arm_wall_stretch"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 107,
+            "exe_name": "posterior_shoulder_stretch"
+          },
+          {
+            "exe_reps": 6,
+            "exe_status": false,
+            "exe_id": 108,
+            "exe_name": "side_raises_stretches"
+          },
+          {
+            "exe_reps": 6,
+            "exe_status": false,
+            "exe_id": 109,
+            "exe_name": "dumbell_reverse_fly"
+          }
+        ]
+      },
+      {
+        "dayId": 3,
+        "planId": 1,
+        "exercise": [
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 100,
+            "exe_name": "uptright_exernal_rotation"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 101,
+            "exe_name": "bent_over_t_rotation"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 102,
+            "exe_name": "pinkies_to_the_sky"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 103,
+            "exe_name": "wall_angels"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 104,
+            "exe_name": "internal_rotation"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 105,
+            "exe_name": "line_pullover"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 106,
+            "exe_name": "straight_arm_wall_stretch"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 107,
+            "exe_name": "posterior_shoulder_stretch"
+          }
+        ]
+      },
+      {
+        "dayId": 4,
+        "planId": 1,
+        "exercise": [
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 100,
+            "exe_name": "uptright_exernal_rotation"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 101,
+            "exe_name": "bent_over_t_rotation"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 102,
+            "exe_name": "pinkies_to_the_sky"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 103,
+            "exe_name": "wall_angels"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 104,
+            "exe_name": "internal_rotation"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 105,
+            "exe_name": "line_pullover"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 108,
+            "exe_name": "side_raises_stretches"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 109,
+            "exe_name": "dumbell_reverse_fly"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 110,
+            "exe_name": "band_pull_apart"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 111,
+            "exe_name": "front_raises"
+          }
+        ]
+      },
+      {
+        "dayId": 5,
+        "planId": 1,
+        "exercise": [
+          {
+            "exe_reps": 6,
+            "exe_status": false,
+            "exe_id": 100,
+            "exe_name": "uptright_exernal_rotation"
+          },
+          {
+            "exe_reps": 6,
+            "exe_status": false,
+            "exe_id": 101,
+            "exe_name": "bent_over_t_rotation"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 102,
+            "exe_name": "pinkies_to_the_sky"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 103,
+            "exe_name": "wall_angels"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 104,
+            "exe_name": "internal_rotation"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 105,
+            "exe_name": "line_pullover"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 108,
+            "exe_name": "side_raises_stretches"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 109,
+            "exe_name": "dumbell_reverse_fly"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 110,
+            "exe_name": "band_pull_apart"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 111,
+            "exe_name": "front_raises"
+          }
+        ]
+      },
+      {
+        "dayId": 6,
+        "planId": 1,
+        "exercise": [
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 100,
+            "exe_name": "uptright_exernal_rotation"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 101,
+            "exe_name": "bent_over_t_rotation"
+          },
+          {
+            "exe_reps": 12,
+            "exe_status": false,
+            "exe_id": 102,
+            "exe_name": "pinkies_to_the_sky"
+          },
+          {
+            "exe_reps": -8,
+            "exe_status": false,
+            "exe_id": 103,
+            "exe_name": "wall_angels"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 104,
+            "exe_name": "internal_rotation"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 105,
+            "exe_name": "line_pullover"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 106,
+            "exe_name": "straight_arm_wall_stretch"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 109,
+            "exe_name": "dumbell_reverse_fly"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 110,
+            "exe_name": "band_pull_apart"
+          }
+        ]
+      },
+      {
+        "dayId": 7,
+        "planId": 1,
+        "exercise": [
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 102,
+            "exe_name": "pinkies_to_the_sky"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 103,
+            "exe_name": "wall_angels"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 104,
+            "exe_name": "internal_rotation"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 105,
+            "exe_name": "line_pullover"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 106,
+            "exe_name": "straight_arm_wall_stretch"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 107,
+            "exe_name": "posterior_shoulder_stretch"
+          },
+          {
+            "exe_reps": 6,
+            "exe_status": false,
+            "exe_id": 108,
+            "exe_name": "side_raises_stretches"
+          },
+          {
+            "exe_reps": 6,
+            "exe_status": false,
+            "exe_id": 109,
+            "exe_name": "dumbell_reverse_fly"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 110,
+            "exe_name": "band_pull_apart"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 111,
+            "exe_name": "front_raises"
+          }
+        ]
+      }
+    ],
+    "planId": 2
+  },
+  {
+    "day": [
+      {
+        "dayId": 1,
+        "planId": 1,
+        "exercise": [
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 100,
+            "exe_name": "uptright_exernal_rotation"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 101,
+            "exe_name": "bent_over_t_rotation"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 102,
+            "exe_name": "pinkies_to_the_sky"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 106,
+            "exe_name": "straight_arm_wall_stretch"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 107,
+            "exe_name": "posterior_shoulder_stretch"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 108,
+            "exe_name": "side_raises_stretches"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 109,
+            "exe_name": "dumbell_reverse_fly"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 110,
+            "exe_name": "band_pull_apart"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 111,
+            "exe_name": "front_raises"
+          }
+        ]
+      },
+      {
+        "dayId": 2,
+        "planId": 1,
+        "exercise": [
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 102,
+            "exe_name": "pinkies_to_the_sky"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 103,
+            "exe_name": "wall_angels"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 104,
+            "exe_name": "internal_rotation"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 105,
+            "exe_name": "line_pullover"
+          },
+          {
+            "exe_reps": 6,
+            "exe_status": false,
+            "exe_id": 106,
+            "exe_name": "straight_arm_wall_stretch"
+          },
+          {
+            "exe_reps": 6,
+            "exe_status": false,
+            "exe_id": 107,
+            "exe_name": "posterior_shoulder_stretch"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 110,
+            "exe_name": "band_pull_apart"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 111,
+            "exe_name": "front_raises"
+          }
+        ]
+      },
+      {
+        "dayId": 3,
+        "planId": 1,
+        "exercise": [
+          {
+            "exe_reps": 6,
+            "exe_status": false,
+            "exe_id": 100,
+            "exe_name": "uptright_exernal_rotation"
+          },
+          {
+            "exe_reps": 6,
+            "exe_status": false,
+            "exe_id": 101,
+            "exe_name": "bent_over_t_rotation"
+          },
+          {
+            "exe_reps": 6,
+            "exe_status": false,
+            "exe_id": 102,
+            "exe_name": "pinkies_to_the_sky"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 105,
+            "exe_name": "line_pullover"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 106,
+            "exe_name": "straight_arm_wall_stretch"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 107,
+            "exe_name": "posterior_shoulder_stretch"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 108,
+            "exe_name": "side_raises_stretches"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 109,
+            "exe_name": "dumbell_reverse_fly"
+          },
+          {
+            "exe_reps": 12,
+            "exe_status": false,
+            "exe_id": 110,
+            "exe_name": "band_pull_apart"
+          },
+          {
+            "exe_reps": 12,
+            "exe_status": false,
+            "exe_id": 111,
+            "exe_name": "front_raises"
+          }
+        ]
+      },
+      {
+        "dayId": 4,
+        "planId": 1,
+        "exercise": [
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 100,
+            "exe_name": "uptright_exernal_rotation"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 101,
+            "exe_name": "bent_over_t_rotation"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 102,
+            "exe_name": "pinkies_to_the_sky"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 103,
+            "exe_name": "wall_angels"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 104,
+            "exe_name": "internal_rotation"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 105,
+            "exe_name": "line_pullover"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 106,
+            "exe_name": "straight_arm_wall_stretch"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 110,
+            "exe_name": "band_pull_apart"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 111,
+            "exe_name": "front_raises"
+          }
+        ]
+      },
+      {
+        "dayId": 5,
+        "planId": 1,
+        "exercise": [
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 100,
+            "exe_name": "uptright_exernal_rotation"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 101,
+            "exe_name": "bent_over_t_rotation"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 103,
+            "exe_name": "wall_angels"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 104,
+            "exe_name": "internal_rotation"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 107,
+            "exe_name": "posterior_shoulder_stretch"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 108,
+            "exe_name": "side_raises_stretches"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 109,
+            "exe_name": "dumbell_reverse_fly"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 110,
+            "exe_name": "band_pull_apart"
+          }
+        ]
+      },
+      {
+        "dayId": 6,
+        "planId": 1,
+        "exercise": [
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 102,
+            "exe_name": "pinkies_to_the_sky"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 103,
+            "exe_name": "wall_angels"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 104,
+            "exe_name": "internal_rotation"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 105,
+            "exe_name": "line_pullover"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 106,
+            "exe_name": "straight_arm_wall_stretch"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 107,
+            "exe_name": "posterior_shoulder_stretch"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 109,
+            "exe_name": "dumbell_reverse_fly"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 110,
+            "exe_name": "band_pull_apart"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 111,
+            "exe_name": "front_raises"
+          }
+        ]
+      },
+      {
+        "dayId": 7,
+        "planId": 1,
+        "exercise": [
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 100,
+            "exe_name": "uptright_exernal_rotation"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 101,
+            "exe_name": "bent_over_t_rotation"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 104,
+            "exe_name": "internal_rotation"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 105,
+            "exe_name": "line_pullover"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 106,
+            "exe_name": "straight_arm_wall_stretch"
+          },
+          {
+            "exe_reps": 6,
+            "exe_status": false,
+            "exe_id": 107,
+            "exe_name": "posterior_shoulder_stretch"
+          },
+          {
+            "exe_reps": 6,
+            "exe_status": false,
+            "exe_id": 108,
+            "exe_name": "side_raises_stretches"
+          }
+        ]
+      }
+    ],
+    "planId": 3
+  },
+  {
+    "day": [
+      {
+        "dayId": 1,
+        "planId": 1,
+        "exercise": [
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 100,
+            "exe_name": "uptright_exernal_rotation"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 101,
+            "exe_name": "bent_over_t_rotation"
+          },
+          {
+            "exe_reps": 12,
+            "exe_status": false,
+            "exe_id": 102,
+            "exe_name": "pinkies_to_the_sky"
+          },
+          {
+            "exe_reps": 12,
+            "exe_status": false,
+            "exe_id": 103,
+            "exe_name": "wall_angels"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 106,
+            "exe_name": "straight_arm_wall_stretch"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 107,
+            "exe_name": "posterior_shoulder_stretch"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 109,
+            "exe_name": "dumbell_reverse_fly"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 110,
+            "exe_name": "band_pull_apart"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 111,
+            "exe_name": "front_raises"
+          }
+        ]
+      },
+      {
+        "dayId": 2,
+        "planId": 1,
+        "exercise": [
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 100,
+            "exe_name": "uptright_exernal_rotation"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 101,
+            "exe_name": "bent_over_t_rotation"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 102,
+            "exe_name": "pinkies_to_the_sky"
+          },
+          {
+            "exe_reps": 6,
+            "exe_status": false,
+            "exe_id": 105,
+            "exe_name": "line_pullover"
+          },
+          {
+            "exe_reps": 6,
+            "exe_status": false,
+            "exe_id": 106,
+            "exe_name": "straight_arm_wall_stretch"
+          },
+          {
+            "exe_reps": 6,
+            "exe_status": false,
+            "exe_id": 107,
+            "exe_name": "posterior_shoulder_stretch"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 108,
+            "exe_name": "side_raises_stretches"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 109,
+            "exe_name": "dumbell_reverse_fly"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 110,
+            "exe_name": "band_pull_apart"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 111,
+            "exe_name": "front_raises"
+          }
+        ]
+      },
+      {
+        "dayId": 3,
+        "planId": 1,
+        "exercise": [
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 100,
+            "exe_name": "uptright_exernal_rotation"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 101,
+            "exe_name": "bent_over_t_rotation"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 102,
+            "exe_name": "pinkies_to_the_sky"
+          },
+          {
+            "exe_reps": 12,
+            "exe_status": false,
+            "exe_id": 103,
+            "exe_name": "wall_angels"
+          },
+          {
+            "exe_reps": 12,
+            "exe_status": false,
+            "exe_id": 104,
+            "exe_name": "internal_rotation"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 108,
+            "exe_name": "side_raises_stretches"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 109,
+            "exe_name": "dumbell_reverse_fly"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 110,
+            "exe_name": "band_pull_apart"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 111,
+            "exe_name": "front_raises"
+          }
+        ]
+      },
+      {
+        "dayId": 4,
+        "planId": 1,
+        "exercise": [
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 100,
+            "exe_name": "uptright_exernal_rotation"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 101,
+            "exe_name": "bent_over_t_rotation"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 102,
+            "exe_name": "pinkies_to_the_sky"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 104,
+            "exe_name": "internal_rotation"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 105,
+            "exe_name": "line_pullover"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 106,
+            "exe_name": "straight_arm_wall_stretch"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 108,
+            "exe_name": "side_raises_stretches"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 109,
+            "exe_name": "dumbell_reverse_fly"
+          }
+        ]
+      },
+      {
+        "dayId": 5,
+        "planId": 1,
+        "exercise": [
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 100,
+            "exe_name": "uptright_exernal_rotation"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 101,
+            "exe_name": "bent_over_t_rotation"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 102,
+            "exe_name": "pinkies_to_the_sky"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 104,
+            "exe_name": "internal_rotation"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 105,
+            "exe_name": "line_pullover"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 106,
+            "exe_name": "straight_arm_wall_stretch"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 108,
+            "exe_name": "side_raises_stretches"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 109,
+            "exe_name": "dumbell_reverse_fly"
+          }
+        ]
+      },
+      {
+        "dayId": 6,
+        "planId": 1,
+        "exercise": [
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 100,
+            "exe_name": "uptright_exernal_rotation"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 101,
+            "exe_name": "bent_over_t_rotation"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 102,
+            "exe_name": "pinkies_to_the_sky"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 103,
+            "exe_name": "wall_angels"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 106,
+            "exe_name": "straight_arm_wall_stretch"
+          },
+          {
+            "exe_reps": 8,
+            "exe_status": false,
+            "exe_id": 107,
+            "exe_name": "posterior_shoulder_stretch"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 110,
+            "exe_name": "band_pull_apart"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 111,
+            "exe_name": "front_raises"
+          }
+        ]
+      },
+      {
+        "dayId": 7,
+        "planId": 1,
+        "exercise": [
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 100,
+            "exe_name": "uptright_exernal_rotation"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 101,
+            "exe_name": "bent_over_t_rotation"
+          },
+          {
+            "exe_reps": 12,
+            "exe_status": false,
+            "exe_id": 102,
+            "exe_name": "pinkies_to_the_sky"
+          },
+          {
+            "exe_reps": 12,
+            "exe_status": false,
+            "exe_id": 103,
+            "exe_name": "wall_angels"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 106,
+            "exe_name": "straight_arm_wall_stretch"
+          },
+          {
+            "exe_reps": 10,
+            "exe_status": false,
+            "exe_id": 107,
+            "exe_name": "posterior_shoulder_stretch"
+          },
+          {
+            "exe_reps": 12,
+            "exe_status": false,
+            "exe_id": 110,
+            "exe_name": "band_pull_apart"
+          },
+          {
+            "exe_reps": 12,
+            "exe_status": false,
+            "exe_id": 111,
+            "exe_name": "front_raises"
+          }
+        ]
+      }
+    ],
+    "planId": 4
+  }
+]
