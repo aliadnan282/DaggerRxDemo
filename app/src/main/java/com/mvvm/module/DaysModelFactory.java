@@ -1,3 +1,4 @@
+/*
 package com.mvvm.module;
 
 import android.arch.lifecycle.ViewModel;
@@ -5,7 +6,6 @@ import android.arch.lifecycle.ViewModelProvider;
 
 import com.mvvm.common.domain.interactors.LoadCommonGreetingUseCase;
 import com.mvvm.rx.SchedulersFacade;
-import com.mvvm.viewmodel.PlanDaysViewModel;
 
 public class DaysModelFactory implements ViewModelProvider.Factory {
 
@@ -21,10 +21,11 @@ public class DaysModelFactory implements ViewModelProvider.Factory {
     }
 
     @Override
-    public <T extends ViewModel> T create(Class<T> modelClass) {
-        if (modelClass.isAssignableFrom(PlanDaysViewModel.class)) {
-            return (T) new PlanDaysViewModel(loadCommonGreetingUseCase , schedulersFacade);
-        }
-        throw new IllegalArgumentException("Unknown ViewModel class");
+public <T extends ViewModel> T create(Class<T> modelClass) {
+    if (modelClass.isAssignableFrom(PlanDaysViewModel.class)) {
+        return (T) new PlanDaysViewModel(loadCommonGreetingUseCase , schedulersFacade);
     }
+    throw new IllegalArgumentException("Unknown ViewModel class");
 }
+}
+*/

@@ -16,14 +16,14 @@ import dagger.Provides;
 @Module
 public class DaysModule {
 
-    @Singleton
+  /*  @Singleton
     @Provides
     RoomRepository providRoomRepository() {
         return new RoomRepository();
-    }
+    }*/
 
-    @Provides
+   /* @Provides
     DaysModelFactory provideDaysModelFactory(LoadCommonGreetingUseCase loadCommonGreetingUseCase, SchedulersFacade schedulersFacade) {
         return new DaysModelFactory(loadCommonGreetingUseCase, schedulersFacade);
-    }
+    }*/
 }

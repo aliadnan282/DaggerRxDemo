@@ -7,7 +7,7 @@ import android.content.Context;
 import com.mvvm.App;
 import com.mvvm.common.domain.model.CommonGreetingRepository;
 import com.mvvm.data.database.AppDatabase;
-import com.mvvm.helper.AppConstant;
+import com.mvvm.data.repository.RoomRepository;
 import com.mvvm.helper.AppPreference;
 
 import javax.inject.Singleton;
@@ -23,9 +23,12 @@ import static com.mvvm.data.database.AppDatabase.DATABASE_NAME;
 @Module
 public class AppModule {
 
+    Context context;
+
     @Provides
     Context provideContext(App application) {
-        return application.getApplicationContext();
+        context= application.getApplicationContext();
+        return context;
     }
 
     @Singleton
@@ -36,15 +39,21 @@ public class AppModule {
 
     @Singleton
     @Provides
-    AppPreference provideSharedPreferences() {
-        return AppPreference.getInstance(AppConstant.mContext);
+    AppPreference provideSharedPreferences(Context context) {
+        return AppPreference.getInstance(context);
     }
 
     @Singleton
     @Provides
-    AppDatabase provideDatabase(Application application) {
-        return Room.databaseBuilder(application, AppDatabase.class, DATABASE_NAME)
+    AppDatabase provideDatabase(Context context) {
+        return Room.databaseBuilder(context, AppDatabase.class, DATABASE_NAME)
                 // .addCallback(sRoomDatabaseCallback)
                 .build();
+    }
+
+    @Singleton
+    @Provides
+    RoomRepository provideRepository(AppDatabase appDatabase) {
+        return new RoomRepository(appDatabase);
     }
 }

@@ -67,10 +67,10 @@ public abstract class AppDatabase extends RoomDatabase {
             Scheduler scheduler = Schedulers.from(SixPackThreadPoolExecutor.getInstance());
             if (!appPreference.getBoolean(IS_FIRST_RUN)) {
                 Observable.fromCallable(() -> {
-                    insertPlanDaysData();
-                    insertExerciseDetail();
+                 //   insertPlanDaysData();
+                 //   insertExerciseDetail();
                     insert45Days();
-                    insertAchievements();
+                 //   insertAchievements();
                     return true;
                 })
                         .subscribeOn(scheduler)
@@ -86,7 +86,7 @@ public abstract class AppDatabase extends RoomDatabase {
         }
     };
 
-    private AppDatabase getInstance(Context context) {
+  /*  private AppDatabase getInstance(Context context) {
         if (INSTANCE == null) {
             appPreference=AppPreference.getInstance(context);
             INSTANCE = Room.databaseBuilder(context.getApplicationContext(), AppDatabase.class, DATABASE_NAME)
@@ -95,7 +95,7 @@ public abstract class AppDatabase extends RoomDatabase {
             Log.d(TAG, "getInstance: database");
         }
         return INSTANCE;
-    }
+    }*/
 
     public static void destroyInstance() {
         INSTANCE = null;
