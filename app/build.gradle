@@ -53,9 +53,14 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 }
 
 dependencies {
+
     // **********Android support*************************
     implementation "com.android.support:appcompat-v7:$project.supportLibraryVersion"
     implementation "com.android.support:cardview-v7:$project.supportLibraryVersion"
@@ -75,7 +80,8 @@ dependencies {
     implementation "com.google.dagger:dagger-android-support:$project.daggerVersion"
 
     // if you are not using support library, include this instead
-   // implementation "com.google.dagger:dagger-android:$project.daggerVersion"
+
+    // implementation "com.google.dagger:dagger-android:$project.daggerVersion"
 
     // *********ButterKnife***************************
     implementation "com.jakewharton:butterknife:$project.butterKnifeVersion"
@@ -117,6 +123,4 @@ dependencies {
 
     //*******Stetho Debug Library******************
     implementation "com.facebook.fresco:stetho:$project.stethoLibraryVersion"
-
-
 }

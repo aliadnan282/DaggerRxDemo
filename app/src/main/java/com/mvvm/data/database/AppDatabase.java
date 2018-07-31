@@ -2,12 +2,9 @@ package com.mvvm.data.database;
 
 import android.arch.persistence.db.SupportSQLiteDatabase;
 import android.arch.persistence.room.Database;
-import android.arch.persistence.room.Room;
 import android.arch.persistence.room.RoomDatabase;
-import android.content.Context;
 import android.support.annotation.NonNull;
 import android.util.Log;
-
 
 import com.mvvm.data.dao.AchievementsDao;
 import com.mvvm.data.dao.DailyExerciseProgressDao;
@@ -19,7 +16,6 @@ import com.mvvm.data.entity.DailyExerciseProgress;
 import com.mvvm.data.entity.ExerciseDetail;
 import com.mvvm.data.entity.PlanExercise;
 import com.mvvm.data.entity.UniqueDayEntity;
-import com.mvvm.helper.AppConstant;
 import com.mvvm.helper.AppPreference;
 import com.mvvm.helper.SixPackThreadPoolExecutor;
 import com.mvvm.manager.JsonManager;
@@ -28,8 +24,6 @@ import com.mvvm.model.Exercise;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import javax.inject.Inject;
 
 import io.reactivex.Observable;
 import io.reactivex.Scheduler;
@@ -46,19 +40,17 @@ import static com.mvvm.helper.AppConstant.TTS_UNMUTE;
  * Created by AdnanAli on 3/12/2018.
  */
 
-@Database( exportSchema = false, entities = {UniqueDayEntity.class, Achievement.class, PlanExercise.class, ExerciseDetail.class, DailyExerciseProgress.class}, version = 1)
+@Database(exportSchema = false, entities = {UniqueDayEntity.class, Achievement.class, PlanExercise.class, ExerciseDetail.class, DailyExerciseProgress.class}, version = 1)
 public abstract class AppDatabase extends RoomDatabase {
     public static final String DATABASE_NAME = "stretch";
     private static final String TAG = "AppDatabase";
-
-     AppPreference appPreference;
-
     private static AppDatabase INSTANCE;
+    AppPreference appPreference;
     /**
      * Override the onOpen method to populate the database.
      * For this sample, we clear the database every time it is created or opened.
      */
-    public  Callback sRoomDatabaseCallback = new Callback() {
+    public Callback sRoomDatabaseCallback = new Callback() {
 
         @Override
         public void onCreate(@NonNull SupportSQLiteDatabase db) {
@@ -67,10 +59,10 @@ public abstract class AppDatabase extends RoomDatabase {
             Scheduler scheduler = Schedulers.from(SixPackThreadPoolExecutor.getInstance());
             if (!appPreference.getBoolean(IS_FIRST_RUN)) {
                 Observable.fromCallable(() -> {
-                 //   insertPlanDaysData();
-                 //   insertExerciseDetail();
+                    //   insertPlanDaysData();
+                    //   insertExerciseDetail();
                     insert45Days();
-                 //   insertAchievements();
+                    //   insertAchievements();
                     return true;
                 })
                         .subscribeOn(scheduler)
@@ -106,7 +98,7 @@ public abstract class AppDatabase extends RoomDatabase {
         exerciseDetailDao().insertCategory(exerciseDetailList);
     }
 
-    private  void insert45Days() {
+    private void insert45Days() {
         List<DailyExerciseProgress> list = new ArrayList<>();
         int daySize = 0;
         for (int i = 1; i < 4; i++) {
@@ -120,28 +112,28 @@ public abstract class AppDatabase extends RoomDatabase {
             for (int j = 1; j < daySize; j++) {
                 list.add(new DailyExerciseProgress(i, j, false));
             }
-          dailyExerciseProgressDao().insertDayExerciseProgess(list);
+            dailyExerciseProgressDao().insertDayExerciseProgess(list);
         }
     }
 
-    private  void insertPlanDaysData() {
+    private void insertPlanDaysData() {
         Log.d(TAG, "insertPlanDaysData: ");
         List<Day> dayList = JsonManager.getInstance().getPlanExercise();
         for (Day day : dayList) {
             for (Exercise exercise : day.getExerciseList()) {
                 PlanExercise planExercise1 = new PlanExercise(day.getPlanId(), day.getDayId(), exercise.getExerciseId(), exercise.getExerciseName(), exercise.getExerciseReps(), exercise.getExerciseStatus());
-              planExerciseDao().insertPlanDays(planExercise1);
+                planExerciseDao().insertPlanDays(planExercise1);
             }
 
         }
     }
 
-    private  void insertAchievements() {
+    private void insertAchievements() {
 
         Log.d(TAG, "insertAchievements: ");
         for (int i = 1; i <= 15; i++) {
             Achievement achievement = new Achievement(i, i + (i - 1), false);
-           achievementsDao().insertAchievements(achievement);
+            achievementsDao().insertAchievements(achievement);
         }
     }
 

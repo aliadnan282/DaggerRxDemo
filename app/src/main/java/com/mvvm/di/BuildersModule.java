@@ -1,7 +1,5 @@
 package com.mvvm.di;
 
-import com.mvvm.lobby.LobbyActivity;
-import com.mvvm.lobby.LobbyModule;
 import com.mvvm.module.DaysModule;
 import com.mvvm.view.activity.MainActivity;
 
@@ -14,8 +12,8 @@ import dagger.android.ContributesAndroidInjector;
 @Module
 public abstract class BuildersModule {
 
-    @ContributesAndroidInjector(modules = LobbyModule.class)
-    abstract LobbyActivity bindLobbyActivity();
+   /* @ContributesAndroidInjector(modules = LobbyModule.class)
+    abstract LobbyActivity bindLobbyActivity();*/
 
     @ContributesAndroidInjector(modules = DaysModule.class)
     abstract MainActivity bindMainActivity();

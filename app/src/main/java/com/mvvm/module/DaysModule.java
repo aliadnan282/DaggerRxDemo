@@ -1,8 +1,7 @@
 package com.mvvm.module;
 
-import com.mvvm.common.domain.interactors.LoadCommonGreetingUseCase;
+import com.mvvm.data.database.AppDatabase;
 import com.mvvm.data.repository.RoomRepository;
-import com.mvvm.rx.SchedulersFacade;
 
 import javax.inject.Singleton;
 
@@ -16,14 +15,15 @@ import dagger.Provides;
 @Module
 public class DaysModule {
 
-  /*  @Singleton
+    @Singleton
     @Provides
-    RoomRepository providRoomRepository() {
-        return new RoomRepository();
-    }*/
+    RoomRepository providRoomRepository(AppDatabase appDatabase) {
+        return new RoomRepository(appDatabase);
+    }
 
-   /* @Provides
-    DaysModelFactory provideDaysModelFactory(LoadCommonGreetingUseCase loadCommonGreetingUseCase, SchedulersFacade schedulersFacade) {
-        return new DaysModelFactory(loadCommonGreetingUseCase, schedulersFacade);
-    }*/
+    @Singleton
+    @Provides
+    DaysModelFactory provideDaysModelFactory() {
+        return new DaysModelFactory();
+    }
 }

@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Stetches workouts</string>
     <string name="greeting_error">Unable to load greeting.</string>
+    <string name="calories">30 Kcal</string>
 </resources>

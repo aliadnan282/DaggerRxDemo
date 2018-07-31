@@ -25,6 +25,7 @@ public class AppModule {
 
     Context context;
 
+    @Singleton
     @Provides
     Context provideContext(App application) {
         context= application.getApplicationContext();
@@ -51,9 +52,9 @@ public class AppModule {
                 .build();
     }
 
-    @Singleton
+   /* @Singleton
     @Provides
     RoomRepository provideRepository(AppDatabase appDatabase) {
         return new RoomRepository(appDatabase);
-    }
+    }*/
 }
