@@ -12,13 +12,17 @@ import javax.inject.Inject;
 
 public class CategoryViewModel extends ViewModel {
 
-    @Inject
-    RoomRepository repository;
 
-    public CategoryViewModel() {
+    private RoomRepository repository;
+
+    public CategoryViewModel(RoomRepository roomRepository) {
+        this.repository=roomRepository;
     }
 
     public LiveData<List<DailyExerciseProgress>> getNextDays(int plan, boolean flag) {
         return repository.getDays();
+    }
+    public void insertData(List<DailyExerciseProgress> list) {
+        repository.insertData(list);
     }
 }

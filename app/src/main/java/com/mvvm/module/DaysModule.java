@@ -15,15 +15,14 @@ import dagger.Provides;
 @Module
 public class DaysModule {
 
-    @Singleton
+  /*  @Singleton
     @Provides
     RoomRepository providRoomRepository(AppDatabase appDatabase) {
         return new RoomRepository(appDatabase);
-    }
+    }*/
 
-    @Singleton
     @Provides
-    DaysModelFactory provideDaysModelFactory() {
-        return new DaysModelFactory();
+    DaysModelFactory provideDaysModelFactory(RoomRepository roomRepository) {
+        return new DaysModelFactory(roomRepository);
     }
 }

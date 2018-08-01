@@ -52,9 +52,9 @@ public class AppModule {
                 .build();
     }
 
-   /* @Singleton
+    @Singleton
     @Provides
     RoomRepository provideRepository(AppDatabase appDatabase) {
         return new RoomRepository(appDatabase);
-    }*/
+    }
 }
